@@ -117,7 +117,7 @@ It can be seen from the above plot that most of the areas belong to **Cluster 2*
 
 So far from this analysis, the following could be inferred:
 
-1. Coffee Shop is the most visited venue while Chinese Restaurant is the 4th most visted venue. 
+1. Coffee Shop is the most visited venue while Chinese Restaurant is the 4th most visited venue. 
 2. Bedok and Ang Mo Kio are both Cluster 2 areas that don't have Chinese Restaurant as
    one of the top 5 most visited venues.
 3. Bedok being the most populous area of all, has eateries as the most common venues, but Chinese Restaurant is not one among them.
