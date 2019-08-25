@@ -7,7 +7,7 @@ Singapore is one of the most popular business hubs in the world.  Singapore is t
 
 Since roughly **75% of the population of Singapore is of Chinese descent**, it makes sense to start a Chinese restaurant so as to have the maximum footfall. Being a very expensive city the rental prices are very high here, so to make the maximum profit it is wise to open a restaurant in one of the most populous areas of Singapore.
 
-![Singapore_Skyline.jpg](attachment:Singapore_Skyline.jpg)
+![Singapore_Skyline.jpg](images\Singapor_Skyline.jpg?raw=true)
         Singapore Skyline (source: <https://en.wikipedia.org/wiki/Singapore>)        
 
 #### In a nutshell, we need to find out where in Singapore shall a Chinese resturant be opened so as to maximize the profit.
