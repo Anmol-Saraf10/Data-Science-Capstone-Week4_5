@@ -81,7 +81,7 @@ shows that Coffee Shop is the most visited venue while Chinese Restaurant comes 
 Finally, the data was prepared for analysis. In this process, one hot encoding was used to replace the
 texts with categorical values. After using one-hot enoding the data looked like this:
 
-![After_one_hot_encoding.JPG](attachment:https://github.com/Anmol-Saraf10/Data-Science-Capstone-Week4_5/blob/master/After_one_hot_encoding.JPG)
+![After_one_hot_encoding.JPG](https://github.com/Anmol-Saraf10/Data-Science-Capstone-Week4_5/blob/master/After_one_hot_encoding.JPG)
 
 ## 3.6 Exploratory Data Analysis
 
