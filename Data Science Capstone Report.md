@@ -36,11 +36,11 @@ Planning Areas are the main urban planning and census divisions of Singapore.The
 
 BeatifulSoup and lxml were used to scape the table data from the webpage, as shown below.
 
-![Web_Scraping.JPG](attachment:Web_Scraping.JPG)
+![Web_Scraping.JPG](https://github.com/Anmol-Saraf10/Data-Science-Capstone-Week4_5/blob/master/Web_Scraping.JPG)
 
 The data obtained, after some manipulation looked like this:
 
-![Web_Scraping_Data.JPG](attachment:Web_Scraping_Data.JPG)
+![Web_Scraping_Data.JPG](https://github.com/Anmol-Saraf10/Data-Science-Capstone-Week4_5/blob/master/Web_Scraping_Data.JPG)
 
 
 ## 3.2 Getting the coordinates of each of the areas
@@ -49,11 +49,11 @@ Geopy was used to gather all the coordinates of the areas. Some of the coordinat
 hence they were replaced by the correct ones found using Google search.
 
 After rectifying the coordinates, the data looked like this:
-![Coordinates.JPG](attachment:Coordinates.JPG)
+![Coordinates.JPG](https://github.com/Anmol-Saraf10/Data-Science-Capstone-Week4_5/blob/master/Coordinates.JPG)
 
 These locations were plotted on the map of Singapore with the help of Folium:
 
-![Raw_Map.JPG](attachment:Raw_Map.JPG)
+![Raw_Map.JPG](https://github.com/Anmol-Saraf10/Data-Science-Capstone-Week4_5/blob/master/Raw_Map.JPG)
 
 
 ## 3.3 Selecting the relevant rows
@@ -61,19 +61,19 @@ These locations were plotted on the map of Singapore with the help of Folium:
 To narrow down on the potential areas, the top 10 most populous areas were selected from the data frame
 to create a new data frame. For this the data frame was sorted in descending order to get the top 10 most populous areas:
 
-![Population_wise.JPG](attachment:Population_wise.JPG)
+![Population_wise.JPG](https://github.com/Anmol-Saraf10/Data-Science-Capstone-Week4_5/blob/master/Population_wise.JPG)
 
 
 ## 3.4 Using FoureSquare API
 
 Next, the venue data was gathered using the FourSquare API. In a radius of 500m 100 spots were chosen. The raw data looked like this:
 
-![Raw_Venue.JPG](attachment:Raw_Venue.JPG)
+![Raw_Venue.JPG](https://github.com/Anmol-Saraf10/Data-Science-Capstone-Week4_5/blob/master/Raw_Venue.JPG)
 
 From this data, the top 10 most visited venues were determined. The bar chart below
 shows that Coffee Shop is the most visited venue while Chinese Restaurant comes in at number 4.
 
-![Top_10_most_common_venues.JPG](attachment:Top_10_most_common_venues.JPG)
+![Top_10_most_common_venues.JPG](https://github.com/Anmol-Saraf10/Data-Science-Capstone-Week4_5/blob/master/Top_10_most_common_venues.JPG)
 
 
 ## 3.5 Data Manipulation
@@ -81,14 +81,14 @@ shows that Coffee Shop is the most visited venue while Chinese Restaurant comes 
 Finally, the data was prepared for analysis. In this process, one hot encoding was used to replace the
 texts with categorical values. After using one-hot enoding the data looked like this:
 
-![After_one_hot_encoding.JPG](attachment:After_one_hot_encoding.JPG)
+![After_one_hot_encoding.JPG](attachment:https://github.com/Anmol-Saraf10/Data-Science-Capstone-Week4_5/blob/master/After_one_hot_encoding.JPG)
 
 ## 3.6 Exploratory Data Analysis
 
 In order to understand these areas, it is important to see what venues are the most visited in each of these areas.
 For this analysis let us see what are the top 5 most visited venues in these areas:
 
-![Top_5_most_common_venues.JPG](attachment:Top_5_most_common_venues.JPG)
+![Top_5_most_common_venues.JPG](https://github.com/Anmol-Saraf10/Data-Science-Capstone-Week4_5/blob/master/Top_5_most_common_venues.JPG)
 
 Except Punggol all the areas have some sort of eatery as the most visited venue.
 
@@ -100,18 +100,18 @@ where there seems to be a big drop in the sum of squared distances for each data
 The plot below shows that at probably 3 or 4 the elbow is obtained. For the sake of
 analysis, 4 is considered to be the number of clusters.
 
-![Elbow_plot.JPG](attachment:Elbow_plot.JPG)
+![Elbow_plot.JPG](https://github.com/Anmol-Saraf10/Data-Science-Capstone-Week4_5/blob/master/Elbow_plot.JPG)
 
 Then K-Means Clustering was applied on the dataset. The resultant labels were affixed to
 every row of the original data frame, as shown below:
 
-![Cluster_labels.JPG](attachment:Cluster_labels.JPG)
+![Cluster_labels.JPG](https://github.com/Anmol-Saraf10/Data-Science-Capstone-Week4_5/blob/master/Cluster_labels.JPG)
 
 # 4. Results and Discussion
 
 The clustered areas were plotted on the map of Singapore as shown below:
 
-![Final_map.PNG](attachment:Final_map.PNG)
+![Final_map.PNG](https://github.com/Anmol-Saraf10/Data-Science-Capstone-Week4_5/blob/master/Final_map.PNG)
 
 It can be seen from the above plot that most of the areas belong to **Cluster 2**.
 
