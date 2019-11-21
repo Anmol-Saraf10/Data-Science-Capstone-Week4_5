@@ -126,7 +126,7 @@ According to this analysis, opening a Chinese restaurant at **Bedok would be hig
 
 # 5. Conclusion
 
-The project aimed at finding out which areas in Singapore would yield the maximum profit  when one decides to open an eatery here. Given that majority of the population is of Chnese ethnicity, a Chinese restuarant then becomes the obvious choice.
+The project aimed at finding out which areas in Singapore would yield the maximum profit  when one decides to open an eatery here. Given that majority of the population is of Chnese ethnicity, a Chinese restaurant then becomes the obvious choice.
 
 A project like this requires location data, and FourSquare API usage made the analysis viable. With the powerful Pandas package a lot of manipulation was done to get a clean and meaningful dataset. The K-Means clustering gave us an insight into the similarities of the locations based on the venues visited the people.
 
