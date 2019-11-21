@@ -128,7 +128,7 @@ According to this analysis, opening a Chinese restaurant at **Bedok would be hig
 
 The project aimed at finding out which areas in Singapore would yield the maximum profit  when one decides to open an eatery here. Given that majority of the population is of Chinese ethnicity, a Chinese restaurant then becomes the obvious choice.
 
-A project like this requires location data, and FourSquare API usage made the analysis viable. With the powerful Pandas package a lot of manipulation was done to get a clean and meaningful dataset. The K-Means clustering gave us an insight into the similarities of the locations based on the venues visited the people.
+A project like this requires location data, and FourSquare API usage made the analysis viable. With the powerful Pandas package a lot of manipulation was done to get a clean and meaningful dataset. The K-Means clustering gave us an insight into the similarities of the locations based on the venues visited by the people.
 
 In the end, it was inferred that Bedok was the number one choice to open a Chinese restaurant, however, given the land prices and other constraints, it is wise to have a back up option. Jurong West then becomes another option that could be considered given its similarity with Bedok.
 
