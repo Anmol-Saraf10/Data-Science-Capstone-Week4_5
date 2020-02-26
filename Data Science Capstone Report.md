@@ -34,7 +34,7 @@ This part dicusses the data acquisition, pre-processing and manipulation, and th
 
 Planning Areas are the main urban planning and census divisions of Singapore.The table available on the [Wikipedia page](https://en.wikipedia.org/wiki/Planning_Areas_of_Singapore) lists down all these planning areas along with their respective areas and populations.
 
-BeatifulSoup and lxml were used to scape the table data from the webpage, as shown below.
+BeatifulSoup and lxml were used to scrape the table data from the webpage, as shown below.
 
 ![Web_Scraping.JPG](https://github.com/Anmol-Saraf10/Data-Science-Capstone-Week4_5/blob/master/Web_Scraping.JPG)
 
